@@ -17,4 +17,4 @@ Every push to `main`:
 docker pull YOUR_USERNAME/docker-ci-demo-python:latest
 docker run -p 3000:3000 YOUR_USERNAME/docker-ci-demo-python:latest
 curl http://localhost:3000/health
-# {"status":"ok"}
+# {"status":"ok"}trigger CI
